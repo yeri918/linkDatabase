@@ -8,7 +8,7 @@ app=Flask(__name__)
 connection = pymysql.connect(host="localhost",
                              port=3306,
                              user="root",
-                             password="Yeliep224!",
+                             password=password,
                              db="userdb",
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
